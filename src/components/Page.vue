@@ -33,7 +33,6 @@
 
 import PokemonInfo from './Boxes/PokemonInfo.vue';
 import navbar from './navbar.vue';
-import axios from 'axios'
 
 
 export default {
