@@ -1,12 +1,14 @@
-import { createRouter, createWebHashHistory, createWebHistory } from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 
 
-import Page from "./components/Page.vue";
-import About from "./components/About.vue";
+import Page from "./views/Page.vue";
+import About from "./views/About.vue";
+import Shiny from "./views/Shiny.vue";
 
 const routes = [
     { path: '/', component: About },
-    { path: '/search', component: Page }
+    { path: '/search', component: Page },
+    { path: '/shiny', component: Shiny }
 ]
 
 const history = createWebHistory();

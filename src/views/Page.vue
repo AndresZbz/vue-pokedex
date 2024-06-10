@@ -1,7 +1,7 @@
 <template>
     <div class="page">
         <div class="page-header">
-            <h1 class="my-4 text-center text-white"><img src="../assets/vue.svg"> Pokédex</h1>
+            <h1 class="my-4 text-center text-white">Pokédex</h1>
             <navbar />
         </div>
 
@@ -31,8 +31,8 @@
 
 <script>
 
-import PokemonInfo from './Boxes/PokemonInfo.vue';
-import navbar from './navbar.vue';
+import PokemonInfo from '../components/Boxes/PokemonInfo.vue';
+import navbar from '../components/navbar.vue';
 
 
 export default {
