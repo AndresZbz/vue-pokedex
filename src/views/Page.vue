@@ -7,7 +7,7 @@
 
         <div class="page-body mx-3">
             <form @submit.prevent="getPokemon" class="m-5 text-white d-flex gap-3 justify-content-center">
-                <input type="text" v-model="name" data-bs-theme="dark" class="form-control rounded-2 col-sm-5">
+                <input type="text" v-model="name" class="form-control rounded-2 col-sm-5 w-50">
                 <button type="submit" class="btn btn-primary" >Search</button>
             </form>
 

@@ -6,7 +6,7 @@
         </div>
 
         <div class="page-body text-white m-5">
-            <h2>Shiny hunt</h2>
+            <h2 class="m-3">Shiny hunt</h2>
             <ShinyHunting />
         </div>
     </div>

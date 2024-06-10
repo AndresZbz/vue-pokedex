@@ -1,12 +1,12 @@
 <template>
     <div class="container-xl">
         <div class="row gap-3">
-            <div class="bg-dark text-white pb-5 rounded col-sm-7">
+            <div class="box border text-white pb-5 rounded col-sm-7">
                 <h2 class="m-3">Pokemon</h2>
                 <p>unfinished</p>
             </div>
 
-            <div class="bg-dark text-white pb-5 rounded col-sm-4 px-4">
+            <div class="box border text-white pb-5 rounded col-sm-4 px-4">
                <h2 class="m-3">Resets</h2>
                 <p>Current reset: {{ resets }}</p>
 
